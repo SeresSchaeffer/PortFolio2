@@ -2,10 +2,10 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
+import Port4 from "../../img/Port4.png";
+import Port3 from "../../img/Port3.png";
 import Port2 from "../../img/Port2.png";
 import Port1 from "../../img/Port1.png";
-import Port3 from "../../img/Port3.png";
-import Port4 from "../../img/Port4.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -24,16 +24,16 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Port1} alt="" />
+          <img src={Port1} width='380px' height='214px' alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Port2} alt="" />
+          <img src={Port2} width='380px' height='214px' alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Port3} alt="" />
+          <img src={Port3} width='380px' height='214px' alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Port4} alt="" />
+          <img src={Port4} width='380px' height='214px' alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

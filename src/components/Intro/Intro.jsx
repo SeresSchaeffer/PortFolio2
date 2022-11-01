@@ -9,7 +9,6 @@ import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv";
 import Github from "../../img/github.png";
 import Facebook from "../../img/facebook-128.png";
-import Instagram from "../../img/instagram.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -28,23 +27,22 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
-          <span>Chanathip Charoenchongsuk</span>
+          <span>Poramee Thuanthong</span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Contact</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <a href="https://github.com/Ch4n4thip " target="_blank" ><img src={Github} alt="" /></a>
-          <a href="https://www.facebook.com/SwissKiTKaT " target="_blank" > <img src={Facebook} alt="" height={90}/></a>
-          <a href="https://www.instagram.com/prame.2000s/ " target="_blank" > <img src={Instagram} alt="" /></a>
+          <a href="https://github.com/SeresSchaeffer" target="_blank" ><img src={Github} alt="" /></a>
+          <a href="https://www.facebook.com/peetarza" target="_blank" > <img src={Facebook} alt="" height={90}/></a>
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src={boy} width="300px" height="340px" alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}

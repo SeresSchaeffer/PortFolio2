@@ -5,16 +5,15 @@ import "swiper/css";
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import Kmutnb from "../../img/kmutnb.png";
-import Esport from "../../img/esport.jpg";
 import Pro from "../../img/Pro.jpg";
 
 const Testimonial = () => {
   const clients = [
     {
       img: Pro,
-      head:"Chanathip Charoenchongsuk",
+      head:"Poramee Thuanthong",
       review:
-        "I born in 2000's and really like the world of computers, especially website programming. I've been studying computers since university. I love learning and have a dream to become a professional website programmer  ",
+        "I born in 2000's and really like the world of computer programming. I've been studying computers since university. I love learning and have a dream to become a professional developer ",
     },
       
     {
@@ -25,12 +24,7 @@ const Testimonial = () => {
         "Bachelor of Engineering Program in Electronics Engineering Technology (Computer) From KING MONGKUT'S UNIVERSITY OF TECHNOLOGY NORTH BANGKOK 1518 Pracharat 1 Road, Wongsawang, Bangsue, Bangkok 10800",
     },
       
-    {
-      img: Esport,
-      head:"Experience ",
-      review:
-        "Join the KMUTNB Esport Club, Join the google cloud skills boost and Create the Online Shopping Platform.",
-    },
+   
   ];
 
   return (
